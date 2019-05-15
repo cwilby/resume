@@ -1,0 +1,166 @@
+{
+  "basics": {
+    "name": "Cameron Wilby",
+    "label": "Software Engineer",
+    "picture": "",
+    "website": "https://www.cameronwilby.com",
+    "summary": "Experienced Software Engineer skilled in Web Development, DevOps, Service Integration and Project Management.",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "cwilby",
+        "url": "https://www.github.com/cwilby"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "cameron-wilby-31059767",
+        "url": "https://www.linkedin.com/in/cameron-wilby-31059767/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "CWS Consulting",
+      "position": "Software Engineer",
+      "summary": "Custom software development and consulting.",
+      "startDate": "2013-06-01",
+      "endDate": "2019-05-15",
+      "highlights": [
+        "Design West Engineering - https://designwesteng.com - Rebuilt Microsoft Access application into a responsive web application, enabling on-site project management.",
+        "QDRO Division - https://qdrodivision.com - Greenfield development of web application to communicate progress from attorney to client.",
+        "Rowland Water District - https://www.rowlandwater.com/ - Construction/development of a digital payment kiosk for after-hours payment."
+      ]
+    },
+    {
+      "company": "Sendlane Inc.",
+      "position": "Software Engineer",
+      "summary": "Full stack development/maintenance for an automated email marketing platform.",
+      "startDate": "2018-06-01",
+      "endDate": "2019-12-18",
+      "highlights": [
+        "Developed integrations with third party APIs including Shopify, Stripe and ClickFunnels.",
+        "Introduced frequent mob programming sessions to foster collaboration.",
+        "Built a continuous integration/testing workflow to increase code quality.",
+        "Worked with customer success team to identify new features and fix existing bugs."
+      ]
+    },
+    {
+      "company": "Origin Code Academy",
+      "position": "Instructor / Co-founder",
+      "summary": "Created a 12 week developer course and managed a learning environment.",
+      "startDate": "2015-05-01",
+      "endDate": "2018-05-25",
+      "highlights": [
+        "Started the company with two co-founders.",
+        "Built curriculum and presented daily live-coding sessions to classes of 16 students.",
+        "Sourced real-world projects from local businesses as final projects for students.",
+        "Learned presentation and business management skills."
+      ]
+    },
+    {
+      "company": "Title XI",
+      "position": "Software Engineer",
+      "summary": "Full stack development/maintenance for a US-based bankruptcy case management system.",
+      "startDate": "2012-08-01",
+      "endDate": "2014-07-01",
+      "highlights": [
+        "Built a portal for users to invite debtor attorneys to upload documents for a case.",
+        "Designed and implemented an auditing system to find and inform users of data inconsistencies.",
+        "Fully remote team using Skype and screen sharing to facilitate standups and code review.",
+        "Learned .NET best practices and advanced web development techniques."
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "San Diego JavaScript",
+    "position": "Volunteer Speaker",
+    "website": "https://www.sandiegojs.org/",
+    "summary": "Gave talks about JavaScript and techniques for building web applications",
+    "startDate": "2016-06-01",
+    "endDate": "2018-05-25",
+    "highlights": [
+      "Founded a fundamental JS meetup with coding exercises and focus on core Javascript fundamentals"
+    ]
+  }],
+  "education": [{
+    "institution": "University of Hull",
+    "area": "Computer Software Engineering",
+    "studyType": "Masters",
+    "startDate": "2009-08-28",
+    "endDate": "2013-05-28",
+    "gpa": "First Class with Honors",
+    "courses": [
+      "08101 - Computer Programming 1",
+      "08102 - Computer Programming 2",
+      "08112 - Data Structures and Algorithms",
+      "08120 - Software Engineering 1",
+      "08220 - Software Engineering 2",
+      "08227 - Data Structure Analysis",
+      "08246 - Web Services and Databases",
+      "08309 - Mobile Devices and Applications",
+      "08341 - Hardware interface with PTSN networks",
+      "08346 - Software Engineering 3",
+      "08982 - Component-based Architectures",
+      "08981 - Maintaining Large Software Systems",
+      "08983 - Full-stack Web Development",
+      "08985 - Computer Systems Security"
+    ]
+  }],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "8/10",
+      "keywords": [
+        "HTML", "CSS", "JavaScript", "SASS", "DOM", "React", "Vue", "KnockoutJS", "Angular" 
+      ]
+    },
+    {
+      "name": "Service Development",
+      "level": "9/10",
+      "keywords": [
+        "PHP", "Laravel", "NodeJS", "Express", "ASP.NET"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "9/10",
+      "keywords": [
+        "Linux", "AWS", "DigitalOcean", "Azure", "Networking", ".NET", "Docker", "Kubernetes", "Ansible", "CircleCI", "TravisCI", "Jenkins", "Laravel Forge"
+      ]
+    },
+    {
+      "name": "Service Integration",
+      "level": "8/10",
+      "keywords": [
+        "Zapier", "Metabase", "Stripe", "Shopify", "Recurly", "Google Analytics", "Twilio"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "level": "8/10",
+      "keywords": [
+        "Scrum", "JIRA", "ZenHub", "Trello", "GitHub"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Cycling",
+        "Hiking",
+        "Running"
+      ]
+    }
+  ]
+}

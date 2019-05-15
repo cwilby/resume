@@ -1,0 +1,19 @@
+{
+  "name": "cw-resume",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node src/index.js",
+    "start": "npm run export:html && cd build && npx static .",
+    "export:pdf": "npm run build && cd build && npx resume export resume.pdf",
+    "export:html": "npm run build && cd build && npx resume export resume.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "^0.7.11",
+    "resume-cli": "^1.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
