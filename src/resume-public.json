@@ -3,8 +3,8 @@
     "name": "Cameron Wilby",
     "label": "Software Engineer",
     "picture": "",
-    "website": "https://www.cameronwilby.com",
-    "summary": "Experienced Software Engineer skilled in Web Development, DevOps, Service Integration and Project Management.",
+    "website": "https://www.linkedin.com/in/cameron-wilby-31059767",
+    "summary": "Software Engineer with experience building Web/Mobile applications, DevOps, Service Integration and Project Management.",
     "profiles": [
       {
         "network": "GitHub",
@@ -15,6 +15,11 @@
         "network": "LinkedIn",
         "username": "cameron-wilby-31059767",
         "url": "https://www.linkedin.com/in/cameron-wilby-31059767/"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "cameron-wilby",
+        "url": "https://stackoverflow.com/users/700439/cameron-wilby"
       }
     ]
   },
@@ -26,9 +31,11 @@
       "startDate": "2013-06-01",
       "endDate": "2019-05-15",
       "highlights": [
-        "Design West Engineering - https://designwesteng.com - Rebuilt Microsoft Access application into a responsive web application, enabling on-site project management.",
-        "QDRO Division - https://qdrodivision.com - Greenfield development of web application to communicate progress from attorney to client.",
-        "Rowland Water District - https://www.rowlandwater.com/ - Construction/development of a digital payment kiosk for after-hours payment."
+        "Design West Engineering - https://designwesteng.com - Updated a Microsoft Access application to an ASP.NET/KnockoutJS web application with project management, SSRS reporting, and payroll functionality.",
+        "QDRO Division - https://qdrodivision.com - Developed a Laravel/Vue application to help QDRO attorneys manage their cases, share case statuses with clients, and generate documents from pre-built templates.",
+        "Rowland Water District - https://www.rowlandwater.com/ - Developed an ASP.NET/KnockoutJS web application for an on-site payment kiosk at Rowland Water District.",
+        "PMD Alliance - https://www.pmdalliance.org/ - Developed a Laravel/React Native application to help people with Parkinsons find nearby exercise and support groups.",
+        "GSI - https://gsi.loci.ca/ - Developed an educational game with Laravel/Angular to create awareness around the length of time COVID-19 can survive on various surfaces."
       ]
     },
     {
@@ -38,23 +45,22 @@
       "startDate": "2018-06-01",
       "endDate": "2019-12-18",
       "highlights": [
-        "Developed integrations with third party APIs including Shopify, Stripe and ClickFunnels.",
-        "Introduced frequent mob programming sessions to foster collaboration.",
+        "Developed and maintained third party integration with Stripe, Shopify, and ClickFunnels.",
         "Built a continuous integration/testing workflow to increase code quality.",
-        "Worked with customer success team to identify new features and fix existing bugs."
+        "Worked with customer success team to identify new features and triage bug fixes."
+        "Introduced mob programming sessions.",
       ]
     },
     {
       "company": "Origin Code Academy",
       "position": "Instructor / Co-founder",
-      "summary": "Created a 12 week developer course and managed a learning environment.",
+      "summary": "Created a 12 week development curriculum and learning environment.",
       "startDate": "2015-05-01",
       "endDate": "2018-05-25",
       "highlights": [
-        "Started the company with two co-founders.",
         "Built curriculum and presented daily live-coding sessions to classes of 16 students.",
         "Sourced real-world projects from local businesses as final projects for students.",
-        "Learned presentation and business management skills."
+        "Learned presentation and how to run a lean startup."
       ]
     },
     {
@@ -65,9 +71,9 @@
       "endDate": "2014-07-01",
       "highlights": [
         "Built a portal for users to invite debtor attorneys to upload documents for a case.",
-        "Designed and implemented an auditing system to find and inform users of data inconsistencies.",
+        "Designed and implemented a system to automate case auditing.",
+        "Learned .NET best practices and advanced web development techniques.",
         "Fully remote team using Skype and screen sharing to facilitate standups and code review.",
-        "Learned .NET best practices and advanced web development techniques."
       ]
     }
   ],
@@ -115,6 +121,13 @@
       ]
     },
     {
+      "name": "Mobile Development",
+      "level": "7/10",
+      "keywords": [
+        "React Native", "Android/Java"
+      ]
+    },
+    {
       "name": "Service Development",
       "level": "9/10",
       "keywords": [
@@ -125,21 +138,21 @@
       "name": "DevOps",
       "level": "9/10",
       "keywords": [
-        "Linux", "AWS", "DigitalOcean", "Azure", "Networking", ".NET", "Docker", "Kubernetes", "Ansible", "CircleCI", "TravisCI", "Jenkins", "Laravel Forge"
+        "Serverless", "Linux", "AWS", "Azure", "Networking", ".NET", "Kubernetes", "Ansible", "CircleCI", "GitHub Actions" 
       ]
     },
     {
       "name": "Service Integration",
       "level": "8/10",
       "keywords": [
-        "Zapier", "Metabase", "Stripe", "Shopify", "Recurly", "Google Analytics", "Twilio"
+        "Zapier", "Metabase", "Stripe", "Shopify", "Recurly", "Google Analytics", "Twilio", "Learning Management Systems"
       ]
     },
     {
       "name": "Project Management",
       "level": "8/10",
       "keywords": [
-        "Scrum", "JIRA", "ZenHub", "Trello", "GitHub"
+        "Pivotal Tracker", "JIRA", "Trello", "GitHub", "ZenHub"
       ]
     }
   ],
@@ -148,15 +161,12 @@
       "language": "English",
       "fluency": "Native speaker"
     },
-    {
-      "language": "Spanish",
-      "fluency": "Beginner"
-    }
   ],
   "interests": [
     {
       "name": "Outdoors",
       "keywords": [
+        "Swimming",
         "Cycling",
         "Hiking",
         "Running"
