@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "node src/index.js",
-    "start": "npm run export:html && cd build && npx static .",
+    "start": "npm run export:html && cd build && open http://127.0.0.1:8080/resume.html && npx static ./build",
     "export:pdf": "npm run build && cd build && npx resume export resume.pdf",
     "export:html": "npm run build && cd build && npx resume export resume.html"
   },
@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "node-static": "^0.7.11",
-    "resume-cli": "^1.1.2"
+    "resume-cli": "^2.0.0"
   },
   "dependencies": {
     "hackmyresume": "^1.9.0-beta",
