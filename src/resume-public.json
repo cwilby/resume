@@ -1,176 +1,223 @@
 {
-  "basics": {
-    "name": "Cameron Wilby",
-    "label": "Software Engineer",
-    "picture": "",
-    "website": "https://www.linkedin.com/in/cameron-wilby-31059767",
-    "summary": "Software Engineer with experience building Web/Mobile applications, DevOps, Service Integration and Project Management.",
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "cwilby",
-        "url": "https://www.github.com/cwilby"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "cameron-wilby-31059767",
-        "url": "https://www.linkedin.com/in/cameron-wilby-31059767/"
-      },
-      {
-        "network": "StackOverflow",
-        "username": "cameron-wilby",
-        "url": "https://stackoverflow.com/users/700439/cameron-wilby"
-      }
+    "meta": {
+        "theme": "classy"
+    },
+    "basics": {
+        "name": "Cameron Wilby",
+        "label": "Software Engineer",
+        "picture": "",
+        "website": "https://www.linkedin.com/in/cameron-wilby-31059767",
+        "summary": "10+ years experience building scalable web applications and optimizing business processes.",
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "cwilby",
+                "url": "https://www.github.com/cwilby"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "cameron-wilby-31059767",
+                "url": "https://www.linkedin.com/in/cameron-wilby-31059767/"
+            },
+            {
+                "network": "StackOverflow",
+                "username": "cameron-wilby",
+                "url": "https://stackoverflow.com/users/700439/cameron-wilby"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "CWS Consulting",
+            "position": "Software Engineer",
+            "summary": "Custom software development and consulting.",
+            "startDate": "2013-06-01",
+            "endDate": "2021-08-30",
+            "highlights": [
+                "LawSync - https://lawsync.com - Architected a suite of web applications to help QDRO attorneys manage cases, easily and securely share information with clients, and quickly generate template-driven documents.",
+                "PMD Alliance - https://www.pmdalliance.org/ - Developed an iOS/Android app that people can use to find nearby exercise and support groups related to Parkinson & movement disorders.",
+                "GSI - https://gsi.loci.ca/ - Developed an educational game with Laravel/Angular to create awareness around the length of time COVID-19 can survive on various surfaces.",
+                "Design West Engineering - https://designwesteng.com - Migrated a Microsoft Access application to a web portal to manage proposals/projects, view/build custom reports, and manage payroll.",
+                "Rowland Water District - https://www.rowlandwater.com/ - Developed a native web application for an on-site payment kiosk at Rowland Water District."
+            ]
+        },
+        {
+            "company": "Sendlane Inc.",
+            "position": "Software Engineer",
+            "summary": "Full stack development/maintenance for an automated email marketing platform.",
+            "startDate": "2018-06-01",
+            "endDate": "2019-12-18",
+            "highlights": [
+                "Developed and maintained third party integration with Stripe, Shopify, and ClickFunnels.",
+                "Contributed to test coverage mission and built a CI workflow to automate aspects of quality control.",
+                "Support the customer success team in triaging bug fixes."
+            ]
+        },
+        {
+            "company": "Origin Code Academy",
+            "position": "Instructor / Co-founder",
+            "summary": "Created a 12 week development curriculum and learning environment.",
+            "startDate": "2015-05-01",
+            "endDate": "2018-05-25",
+            "highlights": [
+                "Built curriculum and presented daily live-coding sessions to classes of 16 students.",
+                "Sourced real-world projects from local businesses as final projects for students.",
+                "Learned presentation and how to run a lean startup."
+            ]
+        },
+        {
+            "company": "Title XI",
+            "position": "Software Engineer",
+            "summary": "Full stack development/maintenance for a US-based bankruptcy case management system.",
+            "startDate": "2012-08-01",
+            "endDate": "2014-07-01",
+            "highlights": [
+                "Built a portal for users to invite debtor attorneys to upload documents for a case.",
+                "Designed and implemented a system to automate case audits.",
+                "Learned .NET best practices and advanced web development techniques.",
+                "Fully remote team using Skype and screen sharing to facilitate standups and code review."
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "San Diego JavaScript",
+            "position": "Volunteer Speaker",
+            "website": "https://www.sandiegojs.org/",
+            "summary": "Gave talks about JavaScript and techniques for building web applications",
+            "startDate": "2016-06-01",
+            "endDate": "2018-05-25",
+            "highlights": [
+                "Founded a fundamental JS meetup with coding exercises and focus on core Javascript fundamentals"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Hull",
+            "area": "Computer Software Engineering",
+            "studyType": "Masters",
+            "startDate": "2009-08-28",
+            "endDate": "2013-05-28",
+            "gpa": "First Class with Honors",
+            "courses": [
+                "08101 - Computer Programming 1",
+                "08102 - Computer Programming 2",
+                "08112 - Data Structures and Algorithms",
+                "08120 - Software Engineering 1",
+                "08220 - Software Engineering 2",
+                "08227 - Data Structure Analysis",
+                "08246 - Web Services and Databases",
+                "08309 - Mobile Devices and Applications",
+                "08341 - Hardware interface with PTSN networks",
+                "08346 - Software Engineering 3",
+                "08982 - Component-based Architectures",
+                "08981 - Maintaining Large Software Systems",
+                "08983 - Full-stack Web Development",
+                "08985 - Computer Systems Security"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "8/10",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "SASS",
+                "DOM",
+                "React",
+                "Vue",
+                "KnockoutJS",
+                "Angular"
+            ]
+        },
+        {
+            "name": "Mobile Development",
+            "level": "7/10",
+            "keywords": [
+                "React Native",
+                "Android/Java"
+            ]
+        },
+        {
+            "name": "Service Development",
+            "level": "9/10",
+            "keywords": [
+                "PHP",
+                "Laravel",
+                "NodeJS",
+                "Express",
+                "ASP.NET"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "level": "9/10",
+            "keywords": [
+                "Serverless",
+                "Linux",
+                "AWS",
+                "Azure",
+                "Networking",
+                ".NET",
+                "Kubernetes",
+                "Ansible",
+                "CircleCI",
+                "GitHub Actions"
+            ]
+        },
+        {
+            "name": "Service Integration",
+            "level": "8/10",
+            "keywords": [
+                "Zapier",
+                "Metabase",
+                "Stripe",
+                "Shopify",
+                "Recurly",
+                "Google Analytics",
+                "Twilio",
+                "Learning Management Systems"
+            ]
+        },
+        {
+            "name": "Project Management",
+            "level": "8/10",
+            "keywords": [
+                "Pivotal Tracker",
+                "JIRA",
+                "Trello",
+                "GitHub",
+                "ZenHub"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Outdoors",
+            "keywords": [
+                "Gardening",
+                "Hiking",
+                "Cycling",
+                "Swimming"
+            ]
+        },
+        {
+            "name": "Music",
+            "keywords": [
+                "Guitar",
+                "Drums",
+                "Piano"
+            ]
+        }
     ]
-  },
-  "work": [
-    {
-      "company": "CWS Consulting",
-      "position": "Software Engineer",
-      "summary": "Custom software development and consulting.",
-      "startDate": "2013-06-01",
-      "endDate": "2019-05-15",
-      "highlights": [
-        "Design West Engineering - https://designwesteng.com - Updated a Microsoft Access application to an ASP.NET/KnockoutJS web application with project management, SSRS reporting, and payroll functionality.",
-        "QDRO Division - https://qdrodivision.com - Developed a Laravel/Vue application to help QDRO attorneys manage their cases, share case statuses with clients, and generate documents from pre-built templates.",
-        "Rowland Water District - https://www.rowlandwater.com/ - Developed an ASP.NET/KnockoutJS web application for an on-site payment kiosk at Rowland Water District.",
-        "PMD Alliance - https://www.pmdalliance.org/ - Developed a Laravel/React Native application to help people with Parkinsons find nearby exercise and support groups.",
-        "GSI - https://gsi.loci.ca/ - Developed an educational game with Laravel/Angular to create awareness around the length of time COVID-19 can survive on various surfaces."
-      ]
-    },
-    {
-      "company": "Sendlane Inc.",
-      "position": "Software Engineer",
-      "summary": "Full stack development/maintenance for an automated email marketing platform.",
-      "startDate": "2018-06-01",
-      "endDate": "2019-12-18",
-      "highlights": [
-        "Developed and maintained third party integration with Stripe, Shopify, and ClickFunnels.",
-        "Built a continuous integration/testing workflow to increase code quality.",
-        "Worked with customer success team to identify new features and triage bug fixes.",
-        "Introduced mob programming sessions."
-      ]
-    },
-    {
-      "company": "Origin Code Academy",
-      "position": "Instructor / Co-founder",
-      "summary": "Created a 12 week development curriculum and learning environment.",
-      "startDate": "2015-05-01",
-      "endDate": "2018-05-25",
-      "highlights": [
-        "Built curriculum and presented daily live-coding sessions to classes of 16 students.",
-        "Sourced real-world projects from local businesses as final projects for students.",
-        "Learned presentation and how to run a lean startup."
-      ]
-    },
-    {
-      "company": "Title XI",
-      "position": "Software Engineer",
-      "summary": "Full stack development/maintenance for a US-based bankruptcy case management system.",
-      "startDate": "2012-08-01",
-      "endDate": "2014-07-01",
-      "highlights": [
-        "Built a portal for users to invite debtor attorneys to upload documents for a case.",
-        "Designed and implemented a system to automate case auditing.",
-        "Learned .NET best practices and advanced web development techniques.",
-        "Fully remote team using Skype and screen sharing to facilitate standups and code review."
-      ]
-    }
-  ],
-  "volunteer": [{
-    "organization": "San Diego JavaScript",
-    "position": "Volunteer Speaker",
-    "website": "https://www.sandiegojs.org/",
-    "summary": "Gave talks about JavaScript and techniques for building web applications",
-    "startDate": "2016-06-01",
-    "endDate": "2018-05-25",
-    "highlights": [
-      "Founded a fundamental JS meetup with coding exercises and focus on core Javascript fundamentals"
-    ]
-  }],
-  "education": [{
-    "institution": "University of Hull",
-    "area": "Computer Software Engineering",
-    "studyType": "Masters",
-    "startDate": "2009-08-28",
-    "endDate": "2013-05-28",
-    "gpa": "First Class with Honors",
-    "courses": [
-      "08101 - Computer Programming 1",
-      "08102 - Computer Programming 2",
-      "08112 - Data Structures and Algorithms",
-      "08120 - Software Engineering 1",
-      "08220 - Software Engineering 2",
-      "08227 - Data Structure Analysis",
-      "08246 - Web Services and Databases",
-      "08309 - Mobile Devices and Applications",
-      "08341 - Hardware interface with PTSN networks",
-      "08346 - Software Engineering 3",
-      "08982 - Component-based Architectures",
-      "08981 - Maintaining Large Software Systems",
-      "08983 - Full-stack Web Development",
-      "08985 - Computer Systems Security"
-    ]
-  }],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "8/10",
-      "keywords": [
-        "HTML", "CSS", "JavaScript", "SASS", "DOM", "React", "Vue", "KnockoutJS", "Angular" 
-      ]
-    },
-    {
-      "name": "Mobile Development",
-      "level": "7/10",
-      "keywords": [
-        "React Native", "Android/Java"
-      ]
-    },
-    {
-      "name": "Service Development",
-      "level": "9/10",
-      "keywords": [
-        "PHP", "Laravel", "NodeJS", "Express", "ASP.NET"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "9/10",
-      "keywords": [
-        "Serverless", "Linux", "AWS", "Azure", "Networking", ".NET", "Kubernetes", "Ansible", "CircleCI", "GitHub Actions" 
-      ]
-    },
-    {
-      "name": "Service Integration",
-      "level": "8/10",
-      "keywords": [
-        "Zapier", "Metabase", "Stripe", "Shopify", "Recurly", "Google Analytics", "Twilio", "Learning Management Systems"
-      ]
-    },
-    {
-      "name": "Project Management",
-      "level": "8/10",
-      "keywords": [
-        "Pivotal Tracker", "JIRA", "Trello", "GitHub", "ZenHub"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Outdoors",
-      "keywords": [
-        "Swimming",
-        "Cycling",
-        "Hiking",
-        "Running"
-      ]
-    }
-  ]
 }

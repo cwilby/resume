@@ -11,12 +11,17 @@
   "license": "ISC",
   "devDependencies": {
     "node-static": "^0.7.11",
-    "resume-cli": "^2.0.0"
+    "resume-cli": "^3.0.5"
   },
   "dependencies": {
     "hackmyresume": "^1.9.0-beta",
     "jsonresume-theme-classy": "^1.0.9",
-    "jsonresume-theme-elite": "^1.1.2",
+    "jsonresume-theme-elite": "^1.2.0",
+    "jsonresume-theme-modern": "0.0.18",
+    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-paper": "^0.5.0",
+    "jsonresume-theme-spartan": "^0.3.0",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
     "lodash": "^4.17.21"
   }
 }
