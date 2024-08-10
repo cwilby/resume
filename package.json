@@ -4,8 +4,8 @@
   "scripts": {
     "build": "node src/index.js",
     "start": "npm run export:html && cd build && open http://127.0.0.1:8080/resume.html && npx static ./build",
-    "export:pdf": "npm run build && cd build && npx resume export resume.pdf",
-    "export:html": "npm run build && cd build && npx resume export resume.html"
+    "export:pdf": "npm run build && cd build && npx resume export resume.pdf --theme ../node_modules/jsonresume-theme-stackoverflow",
+    "export:html": "npm run build && cd build && npx resume export resume.html --theme ../node_modules/jsonresume-theme-stackoverflow"
   },
   "author": "",
   "license": "ISC",
@@ -15,11 +15,15 @@
   },
   "dependencies": {
     "hackmyresume": "^1.9.0-beta",
-    "jsonresume-theme-classy": "^1.0.9",
-    "jsonresume-theme-elite": "^1.2.0",
-    "jsonresume-theme-modern": "0.0.18",
-    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-direct": "^0.1.1",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.21.0",
+    "jsonresume-theme-flat-revised": "^0.0.7",
+    "jsonresume-theme-fresh": "^0.0.3",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-latte": "^1.0.2",
     "jsonresume-theme-paper": "^0.5.0",
+    "jsonresume-theme-slick": "^0.1.16",
     "jsonresume-theme-spartan": "^0.3.0",
     "jsonresume-theme-stackoverflow": "^1.4.0",
     "lodash": "^4.17.21"

@@ -4,20 +4,18 @@
     },
     "basics": {
         "name": "Cameron Wilby",
-        "label": "Software Engineer",
-        "picture": "",
         "website": "https://www.linkedin.com/in/cameron-wilby-31059767",
-        "summary": "10+ years experience building scalable web applications and optimizing business processes.",
+        "summary": "A seasoned software developer with 10 years experience and a keen focus on product leadership.",
         "profiles": [
-            {
-                "network": "GitHub",
-                "username": "cwilby",
-                "url": "https://www.github.com/cwilby"
-            },
             {
                 "network": "LinkedIn",
                 "username": "cameron-wilby-31059767",
                 "url": "https://www.linkedin.com/in/cameron-wilby-31059767/"
+            },
+            {
+                "network": "GitHub",
+                "username": "cwilby",
+                "url": "https://www.github.com/cwilby"
             },
             {
                 "network": "StackOverflow",
@@ -28,17 +26,30 @@
     },
     "work": [
         {
+            "company": "KCC LLC",
+            "position": "Senior Software Engineer",
+            "summary": "Performed full-stack development and upkeep for a US-based bankruptcy case management system.",
+            "startDate": "2021-10-01",
+            "endDate": "2023-09-07",
+            "highlights": [
+                "Designed and implemented a module to calculate bond payment obligations for U.S. Bankruptcy Trustees.",
+                "Developed a new \"Smart Grid\" component to provide Excel-like editing capabilities for tabular data and released several batch editing features.",
+                "Designed and implemented a package to export billing data in Intuit Interchange Format (IIF) for import into QuickBooks Desktop.",
+                "Engaged in agile project management for a team of 5 developers."
+            ]
+        },
+        {
             "company": "CWS Consulting",
             "position": "Software Engineer",
-            "summary": "Custom software development and consulting.",
+            "summary": "Contributed to the growth and success of multiple clients through specialized software development and strategic consulting.",
             "startDate": "2013-06-01",
-            "endDate": "2021-08-30",
+            "endDate": "2023-09-07",
             "highlights": [
-                "LawSync - https://lawsync.com - Architected a suite of web applications to help QDRO attorneys manage cases, easily and securely share information with clients, and quickly generate template-driven documents.",
-                "PMD Alliance - https://www.pmdalliance.org/ - Developed an iOS/Android app that people can use to find nearby exercise and support groups related to Parkinson & movement disorders.",
-                "GSI - https://gsi.loci.ca/ - Developed an educational game with Laravel/Angular to create awareness around the length of time COVID-19 can survive on various surfaces.",
-                "Design West Engineering - https://designwesteng.com - Migrated a Microsoft Access application to a web portal to manage proposals/projects, view/build custom reports, and manage payroll.",
-                "Rowland Water District - https://www.rowlandwater.com/ - Developed a native web application for an on-site payment kiosk at Rowland Water District."
+                "Designed, architected, and developed a suite of web applications for LawSync, enhancing attorneys' ability to manage cases, collaborate securely with clients, and quickly generate required documents.",
+                "Independently developed iOS/Android applications for PMD Alliance, enabling members to easily locate exercise and support groups for Parkinson & movement disorders.",
+                "Engineered an educational game for GSI using Laravel/Angular, aimed at raising awareness about the duration of COVID-19 survival on various surfaces.",
+                "Successfully migrated Design West Engineering's Microsoft Access application to a comprehensive web portal, optimizing processes related to proposals/projects management, custom reports, and payroll management.",
+                "Developed a native web application for an on-site payment kiosk for Rowland Water District, enhancing customer experience and efficiency."
             ]
         },
         {
@@ -48,26 +59,25 @@
             "startDate": "2018-06-01",
             "endDate": "2019-12-18",
             "highlights": [
-                "Developed and maintained third party integration with Stripe, Shopify, and ClickFunnels.",
-                "Contributed to test coverage mission and built a CI workflow to automate aspects of quality control.",
-                "Support the customer success team in triaging bug fixes."
+                "Developed and maintained integrations with key third-party platforms including Stripe, Shopify, and ClickFunnels, significantly improving operational efficiency for Sendlane's user base.",
+                "Contributed to increasing test coverage and sufficiently built a CI workflow to automate quality control, resulting in a sharp decline in production issues.",
+                "Worked with the customer success team to effectively triage, repair, and resolve system bugs, significantly improving customer satisfaction."
             ]
         },
         {
             "company": "Origin Code Academy",
             "position": "Instructor / Co-founder",
-            "summary": "Created a 12 week development curriculum and learning environment.",
+            "summary": "Co-founded a thriving coding academy, facilitating a rigorous 12-week development curriculum and cultivating a conducive learning environment.",
             "startDate": "2015-05-01",
             "endDate": "2018-05-25",
             "highlights": [
-                "Built curriculum and presented daily live-coding sessions to classes of 16 students.",
-                "Sourced real-world projects from local businesses as final projects for students.",
-                "Learned presentation and how to run a lean startup."
+                "Developed a comprehensive programming curriculum and conducted daily live-coding sessions for classes of 16 students, resulting in extensive student learning outcomes.",
+                "Established partnerships with local businesses to provide students with real-world projects, giving them practical industry experience."
             ]
         },
         {
             "company": "Title XI",
-            "position": "Software Engineer",
+            "position": "Contract Software Engineer",
             "summary": "Full stack development/maintenance for a US-based bankruptcy case management system.",
             "startDate": "2012-08-01",
             "endDate": "2014-07-01",
@@ -84,7 +94,7 @@
             "organization": "San Diego JavaScript",
             "position": "Volunteer Speaker",
             "website": "https://www.sandiegojs.org/",
-            "summary": "Gave talks about JavaScript and techniques for building web applications",
+            "summary": "Presented talks on JavaScript and techniques for building web applications",
             "startDate": "2016-06-01",
             "endDate": "2018-05-25",
             "highlights": [
@@ -95,7 +105,7 @@
     "education": [
         {
             "institution": "University of Hull",
-            "area": "Computer Software Engineering",
+            "area": "Computer Software Development",
             "studyType": "Masters",
             "startDate": "2009-08-28",
             "endDate": "2013-05-28",
@@ -118,96 +128,24 @@
             ]
         }
     ],
-    "skills": [
-        {
-            "name": "Web Development",
-            "level": "8/10",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "SASS",
-                "DOM",
-                "React",
-                "Vue",
-                "KnockoutJS",
-                "Angular"
-            ]
-        },
-        {
-            "name": "Mobile Development",
-            "level": "7/10",
-            "keywords": [
-                "React Native",
-                "Android/Java"
-            ]
-        },
-        {
-            "name": "Service Development",
-            "level": "9/10",
-            "keywords": [
-                "PHP",
-                "Laravel",
-                "NodeJS",
-                "Express",
-                "ASP.NET"
-            ]
-        },
-        {
-            "name": "DevOps",
-            "level": "9/10",
-            "keywords": [
-                "Serverless",
-                "Linux",
-                "AWS",
-                "Azure",
-                "Networking",
-                ".NET",
-                "Kubernetes",
-                "Ansible",
-                "CircleCI",
-                "GitHub Actions"
-            ]
-        },
-        {
-            "name": "Service Integration",
-            "level": "8/10",
-            "keywords": [
-                "Zapier",
-                "Metabase",
-                "Stripe",
-                "Shopify",
-                "Recurly",
-                "Google Analytics",
-                "Twilio",
-                "Learning Management Systems"
-            ]
-        },
-        {
-            "name": "Project Management",
-            "level": "8/10",
-            "keywords": [
-                "Pivotal Tracker",
-                "JIRA",
-                "Trello",
-                "GitHub",
-                "ZenHub"
-            ]
-        }
-    ],
     "languages": [
         {
             "language": "English",
             "fluency": "Native speaker"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Beginner"
         }
     ],
     "interests": [
         {
             "name": "Outdoors",
             "keywords": [
-                "Gardening",
-                "Hiking",
+                "Stronglifts 5x5",
                 "Cycling",
+                "Hiking",
+                "Gardening",
                 "Swimming"
             ]
         },
